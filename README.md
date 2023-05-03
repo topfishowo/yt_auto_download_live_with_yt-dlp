@@ -1,4 +1,4 @@
-# Youtube自動下載 Ver 1.1
+# Youtube直播自動下載 Ver 1.1
 使用 YouTube Data API v3<br>
 會自動擷取正在直播中的網址使用並 yt-dlp 進行下載<br>
 API 配額計數器避免超過當天的配額限制 免費配額為 10,000 次，於台灣下午 3 點重置<br>
