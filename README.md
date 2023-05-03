@@ -13,3 +13,7 @@ Python 函式庫安裝 ```pip install google-api-python-client```<br>
 yt-dlp與ffmpeg安裝方式，網路上有許多教學<br>
 申請憑證 API 金鑰 https://console.cloud.google.com/ 並選擇 YouTube Data API v3 程式庫<br>
 如果沒有編輯器推薦安裝 Notepad++ https://notepad-plus-plus.org/downloads/
+
+### 效果展示
+在指定的資料夾處自動生成日期時間
+![image](https://user-images.githubusercontent.com/78526289/235908490-7646254c-b39b-4159-b09d-a80a2fc855ea.png)
