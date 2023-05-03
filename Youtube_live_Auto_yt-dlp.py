@@ -73,7 +73,6 @@ with open(count_file, 'w') as f:
 
 playlist_id = channel_response['items'][0]['contentDetails']['relatedPlaylists']['uploads']
     
-# 持續監測並計算次數
 while True:
     # 取得當前時間
     current_time = time.strftime("%H:%M:%S", time.localtime())
@@ -148,5 +147,5 @@ while True:
     except Exception as error:
         print(f'發生錯誤：{error}')
         
-    # 等待wait_time秒
-    time.sleep(wait_time)
+# 等待wait_time秒
+time.sleep(wait_time)
