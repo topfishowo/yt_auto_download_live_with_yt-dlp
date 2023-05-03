@@ -147,5 +147,5 @@ while True:
     except Exception as error:
         print(f'發生錯誤：{error}')
         
-# 等待wait_time秒
-time.sleep(wait_time)
+    # 等待wait_time秒
+    time.sleep(wait_time)
