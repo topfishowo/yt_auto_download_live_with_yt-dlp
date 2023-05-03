@@ -77,7 +77,7 @@ while True:
     # 取得當前時間
     current_time = time.strftime("%H:%M:%S", time.localtime())
     
-        # 如果進入新的一天且時間 >= 下午3點，就重置計數器
+    # 如果進入新的一天且時間 >= 下午3點，就重置計數器
     if datetime.date.today() != datetime.date.fromisoformat(saved_date) and current_time >= "15:00:00":
         saved_date = str(datetime.date.today())
         count = 0
