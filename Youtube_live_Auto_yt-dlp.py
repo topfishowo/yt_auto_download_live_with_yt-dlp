@@ -62,6 +62,12 @@ with open(count_file, 'r') as f:
 # 將次數轉換為整數
 count = int(count)
 
+current_time = time.strftime("%H:%M:%S", time.localtime())
+if datetime.date.today() != datetime.date.fromisoformat(saved_date) and current_time >= "15:00:00":
+    saved_date = str(datetime.date.today())
+    count = 0
+    print('\033[32m' + f"成功重置 API 配額計數               \n" + '\033[0m')
+
 # 先取得頻道的 uploads 播放清單 ID
 channel_response = youtube.channels().list(
     part='contentDetails',
