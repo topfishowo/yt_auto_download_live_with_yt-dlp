@@ -28,3 +28,7 @@ API 配額消耗計數，讓你掌握消耗了多少配額，並於台灣下午3
 ![image](https://user-images.githubusercontent.com/78526289/235909118-04378dba-4934-4487-be66-2cbde9e9cdf5.png)<br>
 影片成功擷取到直播時<br>
 ![image](https://user-images.githubusercontent.com/78526289/235911283-b7004ee0-53eb-48cc-968d-ce9901545153.png)<br>
+
+###未來小目標
+1.會轉成全用 Python 打包成exe的方式不需要安裝任何東西，目前這個本版比較像自動化腳本而已
+2.寫個 GUI
