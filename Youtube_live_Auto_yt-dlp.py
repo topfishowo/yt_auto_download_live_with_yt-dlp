@@ -28,7 +28,7 @@ download_folder = "C:/Users/User/Desktop"
 # 建立 YouTube Data API 的客戶端
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
-print('\033[32m' + "//////YouTube Data API v3設置完成 版本 Ver 1.1 開始執行//////" + '\033[0m')
+print('\033[32m' + "//////YouTube Data API v3設置完成 版本 Ver 1.2 開始執行//////" + '\033[0m')
 print(f'目前設置間隔時間 {wait_time} 秒')
 print(f'播放清單範圍上限 {channel_list_maxResults} 個')
 print(f'偵測目標頻道 ID {CHANNEL_ID}')
